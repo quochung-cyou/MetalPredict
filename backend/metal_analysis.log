@@ -1,0 +1,488 @@
+2024-12-10 00:33:47,886 - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2024-12-10 00:33:48,518 - DEBUG - Creating converter from 7 to 5
+2024-12-10 00:33:48,518 - DEBUG - Creating converter from 5 to 7
+2024-12-10 00:33:48,518 - DEBUG - Creating converter from 7 to 5
+2024-12-10 00:33:48,518 - DEBUG - Creating converter from 5 to 7
+2024-12-10 00:33:49,721 - DEBUG - Using proactor: IocpProactor
+2024-12-10 00:34:27,378 - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2024-12-10 00:34:27,920 - DEBUG - Creating converter from 7 to 5
+2024-12-10 00:34:27,920 - DEBUG - Creating converter from 5 to 7
+2024-12-10 00:34:27,920 - DEBUG - Creating converter from 7 to 5
+2024-12-10 00:34:27,920 - DEBUG - Creating converter from 5 to 7
+2024-12-10 00:34:29,055 - DEBUG - Using proactor: IocpProactor
+2024-12-10 00:34:51,286 - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2024-12-10 00:34:51,832 - DEBUG - Creating converter from 7 to 5
+2024-12-10 00:34:51,833 - DEBUG - Creating converter from 5 to 7
+2024-12-10 00:34:51,833 - DEBUG - Creating converter from 7 to 5
+2024-12-10 00:34:51,833 - DEBUG - Creating converter from 5 to 7
+2024-12-10 00:34:53,000 - DEBUG - Using proactor: IocpProactor
+2024-12-10 00:34:53,107 - INFO - Loading data from gold.csv
+2024-12-10 00:34:53,113 - ERROR - Error loading gold.csv: name 'clean_volume' is not defined
+2024-12-10 00:35:39,794 - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2024-12-10 00:35:40,362 - DEBUG - Creating converter from 7 to 5
+2024-12-10 00:35:40,362 - DEBUG - Creating converter from 5 to 7
+2024-12-10 00:35:40,362 - DEBUG - Creating converter from 7 to 5
+2024-12-10 00:35:40,362 - DEBUG - Creating converter from 5 to 7
+2024-12-10 00:35:41,597 - DEBUG - Using proactor: IocpProactor
+2024-12-10 00:35:41,681 - INFO - Loading data from gold.csv
+2024-12-10 00:35:41,689 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:35:41,690 - INFO - Loading data from silver.csv
+2024-12-10 00:35:41,694 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:36:00,106 - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2024-12-10 00:36:00,666 - DEBUG - Creating converter from 7 to 5
+2024-12-10 00:36:00,666 - DEBUG - Creating converter from 5 to 7
+2024-12-10 00:36:00,666 - DEBUG - Creating converter from 7 to 5
+2024-12-10 00:36:00,666 - DEBUG - Creating converter from 5 to 7
+2024-12-10 00:36:01,776 - DEBUG - Using proactor: IocpProactor
+2024-12-10 00:36:04,078 - INFO - Loading data from gold.csv
+2024-12-10 00:36:04,085 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:36:04,085 - INFO - Loading data from silver.csv
+2024-12-10 00:36:04,091 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:37:07,528 - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2024-12-10 00:37:08,050 - DEBUG - Creating converter from 7 to 5
+2024-12-10 00:37:08,051 - DEBUG - Creating converter from 5 to 7
+2024-12-10 00:37:08,051 - DEBUG - Creating converter from 7 to 5
+2024-12-10 00:37:08,051 - DEBUG - Creating converter from 5 to 7
+2024-12-10 00:37:09,179 - DEBUG - Using proactor: IocpProactor
+2024-12-10 00:37:09,550 - INFO - Loading data from gold.csv
+2024-12-10 00:37:09,556 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:37:09,556 - INFO - Loading data from silver.csv
+2024-12-10 00:37:09,560 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:37:41,668 - INFO - Loading data from gold.csv
+2024-12-10 00:37:41,674 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:37:41,674 - INFO - Loading data from silver.csv
+2024-12-10 00:37:41,678 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:37:49,691 - INFO - Loading data from gold.csv
+2024-12-10 00:37:49,695 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:37:49,695 - INFO - Loading data from silver.csv
+2024-12-10 00:37:49,699 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:38:58,410 - INFO - Loading data from gold.csv
+2024-12-10 00:38:58,415 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:38:58,415 - INFO - Loading data from silver.csv
+2024-12-10 00:38:58,420 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:39:41,796 - INFO - Loading data from gold.csv
+2024-12-10 00:39:41,800 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:39:41,800 - INFO - Loading data from silver.csv
+2024-12-10 00:39:41,806 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:43:44,549 - INFO - Loading data from gold.csv
+2024-12-10 00:43:44,554 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:43:44,554 - INFO - Loading data from silver.csv
+2024-12-10 00:43:44,559 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:43:44,563 - INFO - Loading data from gold.csv
+2024-12-10 00:43:44,568 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:43:44,568 - INFO - Loading data from silver.csv
+2024-12-10 00:43:44,572 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:43:44,576 - INFO - Loading data from gold.csv
+2024-12-10 00:43:44,579 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:43:44,580 - INFO - Loading data from silver.csv
+2024-12-10 00:43:44,583 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:44:42,633 - INFO - Loading data from gold.csv
+2024-12-10 00:44:42,636 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:44:42,637 - INFO - Loading data from silver.csv
+2024-12-10 00:44:42,640 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:44:42,644 - INFO - Loading data from gold.csv
+2024-12-10 00:44:42,649 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:44:42,649 - INFO - Loading data from silver.csv
+2024-12-10 00:44:42,654 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:44:42,656 - INFO - Loading data from gold.csv
+2024-12-10 00:44:42,661 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:44:42,661 - INFO - Loading data from silver.csv
+2024-12-10 00:44:42,666 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:45:57,072 - INFO - Loading data from gold.csv
+2024-12-10 00:45:57,077 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:45:57,077 - INFO - Loading data from silver.csv
+2024-12-10 00:45:57,084 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:45:57,086 - INFO - Loading data from gold.csv
+2024-12-10 00:45:57,091 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:45:57,091 - INFO - Loading data from silver.csv
+2024-12-10 00:45:57,096 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:45:57,098 - INFO - Loading data from gold.csv
+2024-12-10 00:45:57,102 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:45:57,102 - INFO - Loading data from silver.csv
+2024-12-10 00:45:57,105 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:45:57,526 - INFO - Loading data from gold.csv
+2024-12-10 00:45:57,530 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:45:57,530 - INFO - Loading data from silver.csv
+2024-12-10 00:45:57,536 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:45:57,539 - INFO - Loading data from gold.csv
+2024-12-10 00:45:57,543 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:45:57,543 - INFO - Loading data from silver.csv
+2024-12-10 00:45:57,546 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:45:57,548 - INFO - Loading data from gold.csv
+2024-12-10 00:45:57,554 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:45:57,554 - INFO - Loading data from silver.csv
+2024-12-10 00:45:57,557 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:47:04,073 - INFO - Loading data from gold.csv
+2024-12-10 00:47:04,079 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:47:04,080 - INFO - Loading data from silver.csv
+2024-12-10 00:47:04,085 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:47:04,091 - INFO - Loading data from gold.csv
+2024-12-10 00:47:04,096 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:47:04,097 - INFO - Loading data from silver.csv
+2024-12-10 00:47:04,102 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:47:04,104 - INFO - Loading data from gold.csv
+2024-12-10 00:47:04,111 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:47:04,114 - INFO - Loading data from silver.csv
+2024-12-10 00:47:04,122 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:47:25,390 - INFO - Loading data from gold.csv
+2024-12-10 00:47:25,397 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:47:25,397 - INFO - Loading data from silver.csv
+2024-12-10 00:47:25,402 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:47:25,413 - INFO - Loading data from gold.csv
+2024-12-10 00:47:25,419 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:47:25,419 - INFO - Loading data from silver.csv
+2024-12-10 00:47:25,425 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:47:25,429 - INFO - Loading data from gold.csv
+2024-12-10 00:47:25,436 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:47:25,438 - INFO - Loading data from silver.csv
+2024-12-10 00:47:25,444 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:48:56,706 - INFO - Loading data from gold.csv
+2024-12-10 00:48:56,712 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:48:56,712 - INFO - Loading data from silver.csv
+2024-12-10 00:48:56,716 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:48:56,719 - INFO - Loading data from gold.csv
+2024-12-10 00:48:56,723 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:48:56,723 - INFO - Loading data from silver.csv
+2024-12-10 00:48:56,727 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:48:56,729 - INFO - Loading data from gold.csv
+2024-12-10 00:48:56,732 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:48:56,732 - INFO - Loading data from silver.csv
+2024-12-10 00:48:56,735 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:50:53,397 - INFO - Loading data from gold.csv
+2024-12-10 00:50:53,403 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:50:53,403 - INFO - Loading data from silver.csv
+2024-12-10 00:50:53,409 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:50:53,414 - INFO - Loading data from gold.csv
+2024-12-10 00:50:53,419 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:50:53,419 - INFO - Loading data from silver.csv
+2024-12-10 00:50:53,424 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:50:53,428 - INFO - Loading data from gold.csv
+2024-12-10 00:50:53,434 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:50:53,434 - INFO - Loading data from silver.csv
+2024-12-10 00:50:53,441 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:50:54,039 - INFO - Loading data from gold.csv
+2024-12-10 00:50:54,045 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:50:54,045 - INFO - Loading data from silver.csv
+2024-12-10 00:50:54,050 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:50:54,055 - INFO - Loading data from gold.csv
+2024-12-10 00:50:54,061 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:50:54,061 - INFO - Loading data from silver.csv
+2024-12-10 00:50:54,066 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:50:54,069 - INFO - Loading data from gold.csv
+2024-12-10 00:50:54,074 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:50:54,074 - INFO - Loading data from silver.csv
+2024-12-10 00:50:54,079 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:51:53,443 - INFO - Loading data from gold.csv
+2024-12-10 00:51:53,447 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:51:53,447 - INFO - Loading data from silver.csv
+2024-12-10 00:51:53,450 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:51:53,454 - INFO - Loading data from gold.csv
+2024-12-10 00:51:53,458 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:51:53,458 - INFO - Loading data from silver.csv
+2024-12-10 00:51:53,462 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:51:53,463 - INFO - Loading data from gold.csv
+2024-12-10 00:51:53,468 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:51:53,468 - INFO - Loading data from silver.csv
+2024-12-10 00:51:53,471 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:51:56,927 - INFO - Loading data from gold.csv
+2024-12-10 00:51:56,931 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:51:56,931 - INFO - Loading data from silver.csv
+2024-12-10 00:51:56,935 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:51:56,938 - INFO - Loading data from gold.csv
+2024-12-10 00:51:56,941 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:51:56,941 - INFO - Loading data from silver.csv
+2024-12-10 00:51:56,945 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:51:56,946 - INFO - Loading data from gold.csv
+2024-12-10 00:51:56,950 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:51:56,951 - INFO - Loading data from silver.csv
+2024-12-10 00:51:56,954 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:56:16,993 - INFO - Loading data from gold.csv
+2024-12-10 00:56:17,003 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:56:17,013 - INFO - Loading data from silver.csv
+2024-12-10 00:56:17,028 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:56:17,039 - INFO - Loading data from gold.csv
+2024-12-10 00:56:17,049 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:56:17,050 - INFO - Loading data from silver.csv
+2024-12-10 00:56:17,057 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:56:17,065 - INFO - Loading data from gold.csv
+2024-12-10 00:56:17,082 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:56:17,083 - INFO - Loading data from silver.csv
+2024-12-10 00:56:17,097 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:56:18,420 - INFO - Loading data from gold.csv
+2024-12-10 00:56:18,425 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:56:18,425 - INFO - Loading data from silver.csv
+2024-12-10 00:56:18,430 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:56:18,434 - INFO - Loading data from gold.csv
+2024-12-10 00:56:18,438 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:56:18,438 - INFO - Loading data from silver.csv
+2024-12-10 00:56:18,451 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:56:18,456 - INFO - Loading data from gold.csv
+2024-12-10 00:56:18,466 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:56:18,466 - INFO - Loading data from silver.csv
+2024-12-10 00:56:18,473 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:56:55,186 - INFO - Loading data from gold.csv
+2024-12-10 00:56:55,192 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:56:55,193 - INFO - Loading data from silver.csv
+2024-12-10 00:56:55,196 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:56:55,200 - INFO - Loading data from gold.csv
+2024-12-10 00:56:55,206 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:56:55,206 - INFO - Loading data from silver.csv
+2024-12-10 00:56:55,212 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:56:55,215 - INFO - Loading data from gold.csv
+2024-12-10 00:56:55,220 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:56:55,221 - INFO - Loading data from silver.csv
+2024-12-10 00:56:55,226 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:57:06,848 - INFO - Loading data from gold.csv
+2024-12-10 00:57:06,856 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:57:06,857 - INFO - Loading data from silver.csv
+2024-12-10 00:57:06,864 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:57:06,871 - INFO - Loading data from gold.csv
+2024-12-10 00:57:06,877 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:57:06,877 - INFO - Loading data from silver.csv
+2024-12-10 00:57:06,883 - INFO - Successfully cleaned data from silver.csv
+2024-12-10 00:57:06,885 - INFO - Loading data from gold.csv
+2024-12-10 00:57:06,888 - INFO - Successfully cleaned data from gold.csv
+2024-12-10 00:57:06,889 - INFO - Loading data from silver.csv
+2024-12-10 00:57:06,895 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:40:13,554 - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2024-12-12 00:40:17,010 - DEBUG - Creating converter from 7 to 5
+2024-12-12 00:40:17,012 - DEBUG - Creating converter from 5 to 7
+2024-12-12 00:40:17,013 - DEBUG - Creating converter from 7 to 5
+2024-12-12 00:40:17,013 - DEBUG - Creating converter from 5 to 7
+2024-12-12 00:40:29,562 - DEBUG - Using proactor: IocpProactor
+2024-12-12 00:40:33,822 - INFO - Loading data from gold.csv
+2024-12-12 00:40:33,859 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:40:33,859 - INFO - Loading data from silver.csv
+2024-12-12 00:40:33,876 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:40:33,892 - INFO - Loading data from gold.csv
+2024-12-12 00:40:33,899 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:40:33,900 - INFO - Loading data from silver.csv
+2024-12-12 00:40:33,915 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:40:33,927 - INFO - Loading data from gold.csv
+2024-12-12 00:40:33,932 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:40:33,933 - INFO - Loading data from silver.csv
+2024-12-12 00:40:33,939 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:40:41,247 - INFO - Loading data from gold.csv
+2024-12-12 00:40:41,250 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:40:41,250 - INFO - Loading data from silver.csv
+2024-12-12 00:40:41,256 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:40:41,260 - INFO - Loading data from gold.csv
+2024-12-12 00:40:41,266 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:40:41,266 - INFO - Loading data from silver.csv
+2024-12-12 00:40:41,270 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:40:41,271 - INFO - Loading data from gold.csv
+2024-12-12 00:40:41,288 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:40:41,289 - INFO - Loading data from silver.csv
+2024-12-12 00:40:41,298 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:41:37,226 - INFO - Loading data from gold.csv
+2024-12-12 00:41:37,231 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:41:37,231 - INFO - Loading data from silver.csv
+2024-12-12 00:41:37,235 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:41:37,265 - INFO - Loading data from gold.csv
+2024-12-12 00:41:37,279 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:41:37,280 - INFO - Loading data from silver.csv
+2024-12-12 00:41:37,298 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:41:37,303 - INFO - Loading data from gold.csv
+2024-12-12 00:41:37,311 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:41:37,312 - INFO - Loading data from silver.csv
+2024-12-12 00:41:37,317 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:41:53,254 - INFO - Loading data from gold.csv
+2024-12-12 00:41:53,264 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:41:53,264 - INFO - Loading data from silver.csv
+2024-12-12 00:41:53,278 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:41:53,283 - INFO - Loading data from gold.csv
+2024-12-12 00:41:53,293 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:41:53,293 - INFO - Loading data from silver.csv
+2024-12-12 00:41:53,310 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:41:53,322 - INFO - Loading data from gold.csv
+2024-12-12 00:41:53,332 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:41:53,332 - INFO - Loading data from silver.csv
+2024-12-12 00:41:53,342 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:43:43,694 - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2024-12-12 00:43:44,233 - DEBUG - Creating converter from 7 to 5
+2024-12-12 00:43:44,233 - DEBUG - Creating converter from 5 to 7
+2024-12-12 00:43:44,233 - DEBUG - Creating converter from 7 to 5
+2024-12-12 00:43:44,233 - DEBUG - Creating converter from 5 to 7
+2024-12-12 00:43:45,431 - DEBUG - Using proactor: IocpProactor
+2024-12-12 00:43:46,388 - INFO - Loading data from gold.csv
+2024-12-12 00:43:46,403 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:43:46,404 - INFO - Loading data from gold.csv
+2024-12-12 00:43:46,412 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:43:46,414 - INFO - Loading data from gold.csv
+2024-12-12 00:43:46,429 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:43:46,957 - INFO - Loading data from gold.csv
+2024-12-12 00:43:46,965 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:43:46,966 - INFO - Loading data from gold.csv
+2024-12-12 00:43:46,973 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:43:46,974 - INFO - Loading data from gold.csv
+2024-12-12 00:43:46,983 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:43:48,032 - INFO - Loading data from gold.csv
+2024-12-12 00:43:48,047 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:43:48,048 - INFO - Loading data from gold.csv
+2024-12-12 00:43:48,057 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:43:48,058 - INFO - Loading data from gold.csv
+2024-12-12 00:43:48,067 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:43:50,064 - INFO - Loading data from gold.csv
+2024-12-12 00:43:50,095 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:43:50,096 - INFO - Loading data from gold.csv
+2024-12-12 00:43:50,103 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:43:50,104 - INFO - Loading data from gold.csv
+2024-12-12 00:43:50,112 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:43:54,107 - INFO - Loading data from gold.csv
+2024-12-12 00:43:54,123 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:43:54,125 - INFO - Loading data from gold.csv
+2024-12-12 00:43:54,136 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:43:54,137 - INFO - Loading data from gold.csv
+2024-12-12 00:43:54,146 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:43:58,278 - INFO - Loading data from gold.csv
+2024-12-12 00:43:58,288 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:43:58,290 - INFO - Loading data from gold.csv
+2024-12-12 00:43:58,297 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:43:58,298 - INFO - Loading data from gold.csv
+2024-12-12 00:43:58,319 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:43:59,311 - INFO - Loading data from gold.csv
+2024-12-12 00:43:59,320 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:43:59,322 - INFO - Loading data from gold.csv
+2024-12-12 00:43:59,333 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:43:59,344 - INFO - Loading data from gold.csv
+2024-12-12 00:43:59,355 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:44:01,336 - INFO - Loading data from gold.csv
+2024-12-12 00:44:01,360 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:44:01,362 - INFO - Loading data from gold.csv
+2024-12-12 00:44:01,371 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:44:01,373 - INFO - Loading data from gold.csv
+2024-12-12 00:44:01,382 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:44:05,376 - INFO - Loading data from gold.csv
+2024-12-12 00:44:05,410 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:44:05,412 - INFO - Loading data from gold.csv
+2024-12-12 00:44:05,425 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:44:05,436 - INFO - Loading data from gold.csv
+2024-12-12 00:44:05,451 - ERROR - Error loading gold.csv: 'Price'
+2024-12-12 00:45:48,988 - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2024-12-12 00:45:49,516 - DEBUG - Creating converter from 7 to 5
+2024-12-12 00:45:49,516 - DEBUG - Creating converter from 5 to 7
+2024-12-12 00:45:49,516 - DEBUG - Creating converter from 7 to 5
+2024-12-12 00:45:49,516 - DEBUG - Creating converter from 5 to 7
+2024-12-12 00:45:50,600 - DEBUG - Using proactor: IocpProactor
+2024-12-12 00:45:51,029 - INFO - Loading data from gold.csv
+2024-12-12 00:45:51,050 - ERROR - Error loading gold.csv: 'Vol.'
+2024-12-12 00:45:51,115 - INFO - Loading data from gold.csv
+2024-12-12 00:45:51,139 - ERROR - Error loading gold.csv: 'Vol.'
+2024-12-12 00:45:51,140 - INFO - Loading data from gold.csv
+2024-12-12 00:45:51,157 - ERROR - Error loading gold.csv: 'Vol.'
+2024-12-12 00:45:52,056 - INFO - Loading data from gold.csv
+2024-12-12 00:45:52,079 - ERROR - Error loading gold.csv: 'Vol.'
+2024-12-12 00:45:53,190 - INFO - Loading data from gold.csv
+2024-12-12 00:45:53,210 - ERROR - Error loading gold.csv: 'Vol.'
+2024-12-12 00:45:53,212 - INFO - Loading data from gold.csv
+2024-12-12 00:45:53,226 - ERROR - Error loading gold.csv: 'Vol.'
+2024-12-12 00:45:54,089 - INFO - Loading data from gold.csv
+2024-12-12 00:45:54,116 - ERROR - Error loading gold.csv: 'Vol.'
+2024-12-12 00:45:57,225 - INFO - Loading data from gold.csv
+2024-12-12 00:45:57,255 - ERROR - Error loading gold.csv: 'Vol.'
+2024-12-12 00:45:57,256 - INFO - Loading data from gold.csv
+2024-12-12 00:45:57,270 - ERROR - Error loading gold.csv: 'Vol.'
+2024-12-12 00:45:58,134 - INFO - Loading data from gold.csv
+2024-12-12 00:45:58,163 - ERROR - Error loading gold.csv: 'Vol.'
+2024-12-12 00:46:30,025 - INFO - Loading data from gold.csv
+2024-12-12 00:46:30,040 - ERROR - Error loading gold.csv: 'Vol.'
+2024-12-12 00:46:30,044 - INFO - Loading data from gold.csv
+2024-12-12 00:46:30,062 - ERROR - Error loading gold.csv: 'Vol.'
+2024-12-12 00:46:30,062 - INFO - Loading data from gold.csv
+2024-12-12 00:46:30,080 - ERROR - Error loading gold.csv: 'Vol.'
+2024-12-12 00:46:31,054 - INFO - Loading data from gold.csv
+2024-12-12 00:46:31,080 - ERROR - Error loading gold.csv: 'Vol.'
+2024-12-12 00:46:31,081 - INFO - Loading data from gold.csv
+2024-12-12 00:46:31,096 - ERROR - Error loading gold.csv: 'Vol.'
+2024-12-12 00:46:31,097 - INFO - Loading data from gold.csv
+2024-12-12 00:46:31,114 - ERROR - Error loading gold.csv: 'Vol.'
+2024-12-12 00:46:36,195 - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2024-12-12 00:46:36,724 - DEBUG - Creating converter from 7 to 5
+2024-12-12 00:46:36,724 - DEBUG - Creating converter from 5 to 7
+2024-12-12 00:46:36,725 - DEBUG - Creating converter from 7 to 5
+2024-12-12 00:46:36,725 - DEBUG - Creating converter from 5 to 7
+2024-12-12 00:46:37,830 - DEBUG - Using proactor: IocpProactor
+2024-12-12 00:46:39,839 - INFO - Loading data from gold.csv
+2024-12-12 00:46:39,862 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:46:39,863 - INFO - Loading data from silver.csv
+2024-12-12 00:46:39,869 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:46:39,871 - INFO - Loading data from gold.csv
+2024-12-12 00:46:39,887 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:46:39,889 - INFO - Loading data from silver.csv
+2024-12-12 00:46:39,894 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:46:39,907 - INFO - Loading data from gold.csv
+2024-12-12 00:46:39,925 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:46:39,925 - INFO - Loading data from silver.csv
+2024-12-12 00:46:39,934 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:46:42,021 - INFO - Loading data from gold.csv
+2024-12-12 00:46:42,036 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:46:42,037 - INFO - Loading data from silver.csv
+2024-12-12 00:46:42,044 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:46:44,512 - INFO - Loading data from gold.csv
+2024-12-12 00:46:44,534 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:46:44,534 - INFO - Loading data from silver.csv
+2024-12-12 00:46:44,538 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:46:48,553 - INFO - Loading data from gold.csv
+2024-12-12 00:46:48,578 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:46:48,578 - INFO - Loading data from silver.csv
+2024-12-12 00:46:48,580 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:48:46,728 - INFO - Loading data from gold.csv
+2024-12-12 00:48:46,750 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:48:46,750 - INFO - Loading data from silver.csv
+2024-12-12 00:48:46,754 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:48:46,764 - INFO - Loading data from gold.csv
+2024-12-12 00:48:46,778 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:48:46,778 - INFO - Loading data from silver.csv
+2024-12-12 00:48:46,782 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:48:46,787 - INFO - Loading data from gold.csv
+2024-12-12 00:48:46,800 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:48:46,803 - INFO - Loading data from silver.csv
+2024-12-12 00:48:46,807 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:49:15,889 - INFO - Loading data from gold.csv
+2024-12-12 00:49:15,904 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:49:15,904 - INFO - Loading data from silver.csv
+2024-12-12 00:49:15,913 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:49:15,929 - INFO - Loading data from gold.csv
+2024-12-12 00:49:15,943 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:49:15,944 - INFO - Loading data from silver.csv
+2024-12-12 00:49:15,950 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:49:15,953 - INFO - Loading data from gold.csv
+2024-12-12 00:49:15,971 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:49:15,972 - INFO - Loading data from silver.csv
+2024-12-12 00:49:15,979 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:51:59,574 - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2024-12-12 00:52:00,165 - DEBUG - Creating converter from 7 to 5
+2024-12-12 00:52:00,165 - DEBUG - Creating converter from 5 to 7
+2024-12-12 00:52:00,165 - DEBUG - Creating converter from 7 to 5
+2024-12-12 00:52:00,165 - DEBUG - Creating converter from 5 to 7
+2024-12-12 00:52:01,360 - DEBUG - Using proactor: IocpProactor
+2024-12-12 00:52:01,683 - INFO - Loading data from gold.csv
+2024-12-12 00:52:01,715 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:52:01,715 - INFO - Loading data from silver.csv
+2024-12-12 00:52:01,728 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:52:02,040 - INFO - Loading data from gold.csv
+2024-12-12 00:52:02,058 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:52:02,058 - INFO - Loading data from silver.csv
+2024-12-12 00:52:02,074 - INFO - Successfully cleaned data from silver.csv
+2024-12-12 00:52:02,087 - INFO - Loading data from gold.csv
+2024-12-12 00:52:02,101 - INFO - Successfully cleaned data from gold.csv
+2024-12-12 00:52:02,102 - INFO - Loading data from silver.csv
+2024-12-12 00:52:02,119 - INFO - Successfully cleaned data from silver.csv
+2024-12-19 20:38:56,555 - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2024-12-19 20:39:01,053 - DEBUG - Creating converter from 7 to 5
+2024-12-19 20:39:01,053 - DEBUG - Creating converter from 5 to 7
+2024-12-19 20:39:01,053 - DEBUG - Creating converter from 7 to 5
+2024-12-19 20:39:01,053 - DEBUG - Creating converter from 5 to 7
+2024-12-19 20:39:12,864 - DEBUG - Using proactor: IocpProactor
+2024-12-19 20:39:13,182 - INFO - Loading data from gold.csv
+2024-12-19 20:39:13,206 - INFO - Successfully cleaned data from gold.csv
+2024-12-19 20:39:13,206 - INFO - Loading data from silver.csv
+2024-12-19 20:39:13,253 - INFO - Successfully cleaned data from silver.csv
+2024-12-19 20:39:13,258 - INFO - Loading data from gold.csv
+2024-12-19 20:39:13,272 - INFO - Successfully cleaned data from gold.csv
+2024-12-19 20:39:13,272 - INFO - Loading data from silver.csv
+2024-12-19 20:39:13,285 - INFO - Successfully cleaned data from silver.csv
+2024-12-19 20:39:13,363 - INFO - Loading data from gold.csv
+2024-12-19 20:39:13,376 - INFO - Successfully cleaned data from gold.csv
+2024-12-19 20:39:13,377 - INFO - Loading data from silver.csv
+2024-12-19 20:39:13,394 - INFO - Successfully cleaned data from silver.csv

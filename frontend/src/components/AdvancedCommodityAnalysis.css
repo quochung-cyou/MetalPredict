@@ -1,0 +1,66 @@
+.advanced-commodity-analysis .recharts-cartesian-grid-horizontal line,
+.advanced-commodity-analysis .recharts-cartesian-grid-vertical line {
+  stroke: rgba(255, 255, 255, 0.2);
+}
+
+.advanced-commodity-analysis .recharts-tooltip-wrapper {
+  outline: none;
+}
+
+.advanced-commodity-analysis .recharts-default-tooltip {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border: 1px solid #ccc !important;
+  border-radius: 4px;
+  padding: 8px !important;
+}
+
+.advanced-commodity-analysis .recharts-tooltip-label {
+  color: #333;
+  font-weight: bold;
+}
+
+.advanced-commodity-analysis .recharts-tooltip-item {
+  color: #666;
+}
+
+.advanced-commodity-analysis .recharts-legend-item {
+  cursor: pointer;
+}
+
+.advanced-commodity-analysis .recharts-legend-item:hover {
+  opacity: 0.7;
+}
+
+.advanced-commodity-analysis .recharts-scatter-symbol {
+  transition: transform 0.3s ease;
+}
+
+.advanced-commodity-analysis .recharts-scatter-symbol:hover {
+  transform: scale(1.5);
+}
+
+.advanced-commodity-analysis .recharts-bar-rectangle {
+  transition: opacity 0.3s ease;
+}
+
+.advanced-commodity-analysis .recharts-bar-rectangle:hover {
+  opacity: 1;
+}
+
+.advanced-commodity-analysis table {
+  font-size: 0.875rem;
+}
+
+.advanced-commodity-analysis th {
+  background-color: #f3f4f6;
+}
+
+.advanced-commodity-analysis td {
+  transition: all 0.3s ease;
+}
+
+.advanced-commodity-analysis td:hover {
+  transform: scale(1.05);
+  z-index: 1;
+}
+

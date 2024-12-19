@@ -1,69 +1,303 @@
-# Welcome to your Lovable project
+# Gold Price Tracker
 
-## Project info
+Gold Price Tracker is a web application that predicts the future price of gold based on historical data. The application uses a Long Short-Term Memory (LSTM) neural network to model the complex relationships in gold prices. Users can input a date range and receive a forecasted price for the end of the period. The model is trained on gold prices from 2017 to 2021 and provides a reliable estimate of future trends.
 
-**URL**: https://lovable.dev/projects/e3c3cc87-47c1-48cb-a419-a53f263437f1
 
-## How can I edit this code?
+## Demo
 
-There are several ways of editing your application.
+![alt text](image-5.png)
+![alt text](image-9.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e3c3cc87-47c1-48cb-a419-a53f263437f1) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
 
-**Use your preferred IDE**
+## Business Requirements
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Data Accuracy
+- Real-time gold price updates with < 1-minute delay
+- Historical data accuracy verified against multiple sources
+- News sourced from reputable financial outlets
+- AI analysis confidence scoring system
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Performance
+- Initial page load < 3 seconds
+- Real-time updates < 500ms
+- Caching strategy:
+  - Price data: 1 minute
+  - News analysis: 30 minutes
+  - Historical data: 24 hours
 
-Follow these steps:
+## Features
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Real-time Market Data
+- Live gold price tracking
+- Historical price charts with customizable timeframes
+- Price statistics and trend analysis
+- Related trading pairs monitoring
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### AI-Powered Market Analysis
+- Real-time news aggregation from reliable sources
+- AI-driven sentiment analysis of market news
+- Impact assessment on gold prices
+- Price movement predictions based on news events
 
-# Step 3: Install the necessary dependencies.
-npm i
+### User Experience
+- Responsive design for all devices
+- Dark/light theme support
+- Customizable dashboard layout
+- Real-time data updates
+- Efficient caching system to prevent rate limiting
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## Diagram
+
+### C1: System Context Diagram
+
+![alt text](image.png)
+
+### C2: Container Diagram
+
+![alt text](image-1.png)
+
+### Data flow
+
+![alt text](image-4.png)
+
+
+
+## Project Structure
+
+### Frontend
+
+![alt text](image-2.png)
+
+```
+frontend/
+├── src/
+│   ├── components/
+│   │   ├── NewsFeed.tsx        # AI-powered market news analysis
+│   │   ├── NewsItem.tsx        # Individual news item display
+│   │   ├── PriceChart.tsx      # Gold price visualization
+│   │   ├── PriceStats.tsx      # Price statistics and metrics
+│   │   ├── MarketOverview.tsx  # Market summary dashboard
+│   │   ├── TradingPairs.tsx    # Related trading pairs
+│   │   └── ui/                 # Reusable UI components
+│   ├── lib/
+│   │   ├── newsApi.ts          # News fetching and analysis
+│   │   ├── commoditiesApi.ts   # Gold price data fetching
+│   │   └── cache.ts            # Caching utilities
+│   └── pages/
+│       ├── Index.tsx           # Main dashboard page
+│       └── Settings.tsx        # User preferences
 ```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Backend
 
-**Use GitHub Codespaces**
+![alt text](image-3.png)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+backend/
+│
+├── main.py                 # FastAPI
+├── requirements.txt         # Python dependencies
+├── data.csv                 # Gold Price 2017 - 2021
+├── gold_price_model.joblib      # Trained model
+├── gold_price_scaler.joblib     # Data scaler
+```
 
-## What technologies are used for this project?
+## Tech Stack
 
-This project is built with .
+### Frontend
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- React with TypeScript
+- Vite for build tooling
+- Tailwind CSS for styling
+- shadcn/ui for components
+- Recharts for data visualization
+- Google Gemini for AI analysis
+- Tanstack Query for data fetching
 
-## How can I deploy this project?
+### Backend
 
-Simply open [Lovable](https://lovable.dev/projects/e3c3cc87-47c1-48cb-a419-a53f263437f1) and click on Share -> Publish.
 
-## I want to use a custom domain - is that possible?
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+### Machine Learning Stack
+
+- Core Libraries
+    - Deep Learning:
+        - TensorFlow (Neural Network)
+        - Keras (High-level Neural Network API)
+- Scientific Computing:
+    - NumPy (Numerical computations)
+    - Pandas (Data manipulation)
+- Machine Learning:
+    - Scikit-learn
+        - MinMaxScaler (Data normalization)
+        - train_test_split (Data splitting)
+        - mean_absolute_percentage_error (Evaluation metric)
+- Model Serialization:
+    - Joblib (Model and scaler saving/loading)
+
+## Model Details
+
+### Algorithm Choice
+
+LSTM (Long Short-Term Memory) 
+
+- Memory Mechanism
+    - Can capture long-term dependencies
+    - Remembers important information over extended periods
+    - Critical for financial time series where past events significantly impact future prices
+
+- Non-linear Pattern Recognition
+    - Captures complex, non-linear relationships
+    - Understands intricate market dynamics
+    - Can learn from:
+        - Historical price movements
+        - Seasonal patterns
+        - Subtle market signals
+```
+input1 = tf.keras.layers.Input(shape=(self.window_size, 1))
+x = tf.keras.layers.LSTM(64, return_sequences=True)(input1)
+x = tf.keras.layers.Dropout(0.2)(x)
+x = tf.keras.layers.LSTM(64, return_sequences=True)(x)
+x = tf.keras.layers.Dropout(0.2)(x)
+x = tf.keras.layers.LSTM(64)(x)
+x = tf.keras.layers.Dropout(0.2)(x)
+x = tf.keras.layers.Dense(32, activation='relu')(x)
+output = tf.keras.layers.Dense(1)(x)
+```
+
+Architecture Breakdown
+
+- Multiple LSTM Layers (64 units)
+    - First layer: Processes sequential data
+    - Subsequent layers: Extract higher-level representations
+    - Each layer adds complexity and depth to learning
+
+- Dropout Layers (0.2)
+    - Prevents overfitting
+    - Forces network to learn robust, generalized features
+    - Reduces model's dependency on specific training instances
+
+
+- Dense Layers
+    - Final layers for regression output
+    - Transforms learned representations into price prediction
+
+
+#### Core Features
+
+
+#### Engineered Features
+
+
+
+### Data Preprocessing Considerations
+
+- Window Size Selection (356 * 2 = 712 days)
+
+    - Approximately 2 years of historical data
+    - Captures:
+        - Annual market cycles
+        - Seasonal price variations
+        - Medium-term economic trends
+
+- Loads CSV data
+- Cleans and transforms price data
+- Uses MinMaxScaler for data normalization
+- Creates sliding window approach for time series prediction
+
+#### Data Transformation Techniques
+
+1. Price Normalization
+
+```
+scaler = MinMaxScaler()
+scaled_prices = scaler.fit_transform(df.Price.values.reshape(-1, 1))
+```
+
+- Scales prices to [0, 1] range
+- Ensures all features contribute equally
+- Prevents dominance of larger numerical values
+
+2. Sliding Window Approach
+
+```
+X, y = [], []
+for i in range(self.window_size, len(scaled_prices)):
+    X.append(scaled_prices[i-self.window_size:i, 0])
+    y.append(scaled_prices[i, 0])
+```
+
+- Creates sequences of historical prices
+- Each prediction uses previous 712 days' data
+- Allows model to learn temporal patterns
+
+### Model Pros and Cons
+
+#### Pros
+
+- Captures complex temporal patterns
+- Handles non-linear relationships
+- Provides uncertainty estimates
+- Robust to market volatility
+- Reproducible via fixed random seed
+
+#### Cons
+
+- Computationally expensive
+- Requires substantial historical data
+- Sensitive to window size selection
+- May struggle with sudden market disruptions
+- Potential overfitting risk
+
+### Limitations and Considerations
+
+- Not predictive of extreme black swan events
+- Assumes past patterns will somewhat repeat
+- Should be used as one of multiple decision-making tools
+- Regular retraining recommended
+
+### Model Pipeline
+
+
+
+### Data Sources
+
+- `data.csv`: Gold Price 2017 - 2021
+
+
+## Installation
+
+
+
+1. Install dependencies:
+```bash
+//Go to the frontend directory
+cd frontend
+npm install
+
+//Go to the backend directory
+cd backend
+python install -r requirements.txt
+```
+
+2. Start the development server:
+```bash
+
+//Go to the frontend directory
+cd frontend
+npm run dev 
+
+//Now it available on localhost:5173
+
+//Go to the backend directory
+
+cd backend
+python main.py
+```
+

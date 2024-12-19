@@ -1,0 +1,8 @@
+2024-12-10 00:47:50,372 - INFO - Starting application
+2024-12-10 00:47:50,372 - INFO - Loading data from gold.csv
+2024-12-10 00:47:50,374 - ERROR - Error loading gold.csv: [Errno 2] No such file or directory: 'gold.csv'
+2024-12-10 00:47:50,374 - ERROR - Error in main application: [Errno 2] No such file or directory: 'gold.csv'
+2024-12-10 00:48:01,626 - INFO - Starting application
+2024-12-10 00:48:01,626 - INFO - Loading data from gold.csv
+2024-12-10 00:48:01,628 - ERROR - Error loading gold.csv: [Errno 2] No such file or directory: 'gold.csv'
+2024-12-10 00:48:01,628 - ERROR - Error in main application: [Errno 2] No such file or directory: 'gold.csv'
